@@ -8,5 +8,7 @@
 def addNumbers(x:int, y:int):
     return x + y
 
-ans = addNumbers(5,7)
-print(ans)
+
+if __name__== "__main__":
+    ans = addNumbers(5,7)
+    print(ans)
