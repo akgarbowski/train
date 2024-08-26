@@ -4,9 +4,9 @@ from django.shortcuts import render
 
 from django.http import HttpResponse
 
-def ann(request):
+def index(request):
     return HttpResponse("Hello, world. You're at polls index.")
 
-def calvin(request, num1:int, num2:int):
-    return HttpResponse(f"Hello, your sum is! \n {num1+num2}")
+# def calvin(request, num1:int, num2:int):
+#     return HttpResponse(f"Hello, your sum is! \n {num1+num2}")
 
